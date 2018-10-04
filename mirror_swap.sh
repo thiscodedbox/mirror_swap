@@ -1,12 +1,14 @@
 #!/bin/bash
 
 # <bitbar.title>Monitor Mirror Settings Swap</bitbar.title>
-# <bitbar.version>v0.1</bitbar.version>
+# <bitbar.version>v1.0</bitbar.version>
 # <bitbar.author>ThisCodedBox</bitbar.author>
 # <bitbar.author.github>ThisCodedBox</bitbar.author.github>
 # <bitbar.desc>Swap between mirror mode and a rotated display to effectively disable a screen.</bitbar.desc>
 # <bitbar.dependencies>python</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/thiscodedbox/mirror_swap/</bitbar.abouturl>
+# <bitbar.image>https://raw.githubusercontent.com/thiscodedbox/mirror_swap/master/mirror_swap_preview.png</bitbar.image>
+
 
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 cd "$parent_path"
