@@ -7,6 +7,7 @@
 # <bitbar.desc>Swap between mirror mode and a rotated display to effectively disable a screen.</bitbar.desc>
 # <bitbar.dependencies>python</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/thiscodedbox/mirror_swap/</bitbar.abouturl>
+
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 cd "$parent_path"
 mirror_stat=$($parent_path/mirror_swap_exec/mirror -q)
